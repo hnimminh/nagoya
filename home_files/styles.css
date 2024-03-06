@@ -2127,7 +2127,7 @@ html.slideout-open {
 .page-title {
   display: block;
   position: relative;
-  background: url(../img/base/bg2.jpg) center no-repeat;
+  background: url(japan-panorama.jpg) center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -2145,13 +2145,13 @@ html.slideout-open {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 150px;
+  height: 180px;
   line-height: 1.2;
   text-align: center;
 }
 @media screen and (min-width: 1100px), print {
   .page-title-inner {
-    height: 200px;
+    height: 420px;
   }
 }
 .page-title-name {
