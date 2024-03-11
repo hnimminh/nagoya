@@ -344,7 +344,7 @@ a.link-button:hover:before {
   height: 1px;
   margin-top: -80px;
   margin-bottom: 80px;
-  background: rgba(255, 255, 255, 0) url(../img/base/blank.gif);
+  /* background: rgba(255, 255, 255, 0) url(../img/base/blank.gif); */
   z-index: -100;
 }
 @media screen and (min-width: 1100px), print {
@@ -526,6 +526,7 @@ a.link-button:hover:before {
 .icon-mail:before {
   /* content: "\e901"; */
   content: "✉";
+  font-size: 4em;
 }
 
 .icon-tel:before {
