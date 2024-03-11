@@ -501,6 +501,7 @@ a.link-button:hover:before {
 /*
  * https://icomoon.io/
  */
+ /*
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?1ygqei");
@@ -510,7 +511,6 @@ a.link-button:hover:before {
   font-display: block;
 }
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -518,21 +518,20 @@ a.link-button:hover:before {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-mail:before {
-  /* content: "\e901"; */
   content: "✉";
   font-size: 4em;
 }
 
 .icon-tel:before {
-  /* content: "\e900"; */
   content: "✆";
 }
+*/
 
 /*
  * "Noto Sans JP" is lisenced under the SIL Open Font License, 1.1
